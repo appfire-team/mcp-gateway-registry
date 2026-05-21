@@ -1,6 +1,6 @@
 # Grafana OSS for MCP Gateway Observability Pipeline
 # Pinned to stable version to avoid breaking changes
-FROM grafana/grafana:12.3.1
+FROM grafana/grafana:12.3.6-security-04-ubuntu
 
 # Switch to root to set up directories
 USER root
